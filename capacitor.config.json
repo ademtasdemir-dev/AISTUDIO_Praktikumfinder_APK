@@ -1,0 +1,9 @@
+{
+  "appId": "de.fisi.praktikumradar",
+  "appName": "FISI Praktikum Radar",
+  "webDir": "dist",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https"
+  }
+}

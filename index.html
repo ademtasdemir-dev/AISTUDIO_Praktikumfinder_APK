@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+    <title>FISI Praktikums-Radar Zellingen (97225 &amp; 30 km)</title>
+    <meta name="description" content="Automatische Praktikumssuche, Firmen-Radar &amp; Bewerbungs-Generator für Fachinformatiker Systemintegration (COMCAVE Umschulung 2027/28) für 97225 Zellingen, Würzburg und Unterfranken." />
+    <meta name="theme-color" content="#0284c7" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="FISI Radar" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <link rel="apple-touch-icon" href="/pwa-192x192.svg" />
+    <meta property="og:title" content="FISI Praktikums-Radar Zellingen (97225 &amp; 30 km)" />
+    <meta property="og:description" content="Automatische Praktikumssuche, Firmen-Radar &amp; Bewerbungs-Generator für Fachinformatiker Systemintegration." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <script>
+      // Gracefully silence sandbox iframe WebSocket disconnection errors from Vite HMR
+      window.addEventListener('error', function(event) {
+        if (event && event.message && (
+          event.message.indexOf('WebSocket closed without opened') !== -1 ||
+          event.message.indexOf('@vite/client') !== -1 ||
+          event.message.indexOf('WebSocket') !== -1
+        )) {
+          event.stopImmediatePropagation();
+          event.preventDefault();
+          return true;
+        }
+      }, true);
+      window.addEventListener('unhandledrejection', function(event) {
+        if (event && event.reason && (
+          String(event.reason).indexOf('WebSocket closed without opened') !== -1 ||
+          String(event.reason).indexOf('@vite/client') !== -1 ||
+          String(event.reason).indexOf('WebSocket') !== -1
+        )) {
+          event.stopImmediatePropagation();
+          event.preventDefault();
+        }
+      }, true);
+    </script>
+  </head>
+  <body class="bg-slate-950 text-slate-100 antialiased overscroll-none select-none md:select-auto">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

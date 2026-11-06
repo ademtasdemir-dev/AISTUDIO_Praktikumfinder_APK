@@ -1,0 +1,6 @@
+{
+  "name": "FISI Praktikums-Finder Zellingen",
+  "description": "Angepasster KI-Suchprompt, Firmen-Radar und Bewerbungsassistent für Fachinformatiker Systemintegration (COMCAVE Umschulung) für 97225 Zellingen (max. 30 km Umkreis) und 100% Homeoffice.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
